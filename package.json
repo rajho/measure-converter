@@ -1,0 +1,23 @@
+{
+  "name": "measure-converter",
+  "version": "0.1.0",
+  "description": "Conversor de medidas de peso",
+  "main": "dist/src/measure-converter.js",
+  "scripts": {
+    "build": "babel src/measure-converter.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajho/measure-converter.git"
+  },
+  "keywords": [
+    "measure",
+    "converter"
+  ],
+  "author": "Ramiro <ramijtc@gmail.com> (https://twitter.com/rajhotc)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
